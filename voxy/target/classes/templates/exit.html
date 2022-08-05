@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head th:replace="~{base :: head}">
+</head>
+<body>
+	<div th:replace="~{base :: logo}"></div> 
+	<div class="container"> 
+	<div th:insert="~{base :: title('Thanks for your time! =D')}"></div>  
+	<form action="/form" method="get">
+			<div class="col mb-3 p-3 text-center">
+				<button class="btn btn-secondary" type="submit">Return to the challenge</button>
+			</div>
+	</form>
+</body>
+</html>
