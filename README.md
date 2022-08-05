@@ -42,7 +42,8 @@ If you want to use the spring data features you must install de mariaDB
 * [MariaDB](https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.10.0) 
 
 ## Quick Start
-Make sure the applications.properties file for configuring the database connection if you wish so
+Make sure the applications.properties file for configuring the database connection if you wish so.
+Also for spring data be sure to uncomment the lines of code for exclude={DataSourceAutoConfiguration.class} and the repository injection in FormController
 The default value running locally on its default port `8080`.
 
 ### Run Local
